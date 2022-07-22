@@ -23,10 +23,8 @@ Olá! você está no projeto MarvelDeck, um app feito para um desafio proposto p
 
 
 * Estrutura:
- - Para a estrutura do projeto decidi utilizar o Flutter modular e o Repository patern assim facilitando na criando singletons utilizados por todo o app, além de separar as requisições por arquivos com contratos assim centralizando todas as informações das requisições.
- 
+  - Para a estrutura do projeto decidi utilizar o Flutter modular e o Repository patern assim facilitando na criando singletons utilizados por todo o app, além de separar as requisições por arquivos com contratos assim centralizando todas as informações das requisições.
 * Controle de estado:
- - Para o controle do estado de cada widget na tela o Mobx cuida de atualizar somente o widget necessário para cada momento assim otimizando o gasto de processamento.
-
+  - Para o controle do estado de cada widget na tela o Mobx cuida de atualizar somente o widget necessário para cada momento assim otimizando o gasto de processamento.
 * Requisições:
   - Para as requisições externas o projeto utiliza o package Dio que permite fazer as requisições de forma simples e descomplicadas.
